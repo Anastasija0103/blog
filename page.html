@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Template</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+
+<!--Navbar-->
+
+<nav class="navbar navbar-expand-lg bg-white small border-bottom shadow-sm fixed-top custom-nav" style="--bs-bg-opacity: .9;">
+    <div class="container">
+        <a href="index.html" class="navbar-brand">
+            <span class="brand-style brand-gradient">
+                SHTIP
+            </span>
+        </a>
+        <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#blog-navbar"
+            aria-controls="blog-navbar"
+            aria-expanded="false"
+            aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="blog-navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link text-dark">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="deafult.html" class="nav-link text-dark">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a href="posts.html" class="nav-link text-dark">Posts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="page.html" class="nav-link text-dark">Pages</a>
+                </li>
+                <li class="nav-item">
+                    <a href="search.html" class="nav-link text-dark">Search</a>
+                </li>
+                <li class="nav-item">
+                    <a href="deafult.html" class="nav-link text-dark">Deafult</a>
+                </li>
+            </ul>
+            <form role="search" class="d-flex">
+                <div class="input-group">
+                    <input type="search" class="form-control form-control-sm" placeholder="Search for...">
+                    <button type="submit" class="btn btn-sm btn-success">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                          </svg>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+<!--Navbar-->
+
+<!--Page Header-->
+<header class="main-page-header py-5 mb-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="page-header-holder mt-5 text-white">
+                    <h1 class="fs-3">SHTIP </h1>
+                    <p><b>Štip is the largest urban agglomeration in the eastern part of North Macedonia, serving as the economic, industrial, entertainment and educational focal point for the surrounding municipalities.</p></b>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--Page Header-->
+
+<!--Post Loop-->
+<section class="post-loop py-3 mb-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="content-holder">
+                    <img class="rounded img-fluid mb-3" width="500" height="500" src="1280px-Štip_23.jpeg" alt="">
+                    <img class="rounded img-fluid mb-3" width="750" height="750" src="Безистен_во_Штип.jpg" alt="">
+                    <div class="post-content mb-3">
+                        <h1>Architecture and sights</h1>
+                        <h4>Štip has a ruins of an old castle which keeps a watchful eye on the town from the Isar Hill.</h4>
+
+                        <h2>Architecture and sights & Arts and culture </h2>
+                        <p> The Bezisten, a massive stone building which used to be a closed bazaar (now an art gallery) is a remnant of the Ottoman influence in the city.
+
+                            In the old parts of the town (and especially in Novo Selo) some houses built in the Ottoman style of architecture can still be found.
+                            
+                            The town also boasts the healing powers of the Kežovica mineral spa and with the ruins of the ancient city of Bargala.</p>
+                        <p>The ancient town Bargala is located at the foot of mountain Plackovica. Nearby is the river Kozjacka and small village called Kozjak. It is believed that the ruins found there belong to ancient town Bargala. </p>
+                        <p>Štip boasts the largest festival of pop music in North Macedonia, called MakFest. It has been held every November in the cultural center, "Aco Šopov", for over two decades.
+
+                            Another large cultural event in Štip is the "Štip Summer of Culture" (Macedonian: Штипско Културно Лето), which is a monthlong festival held from 1 July to 1 August, since 1987.
+                            
+                            The first known opera performance in North Macedonia was staged in Štip in 1925</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-bg-primary mb-3">
+                    <div class="card-body">
+                        <h3 class="fs-4">Subscribe for newsletters</h3>
+                    <p>Subscribe for newsletters and support us. Thank you. </p>
+                    <form>
+                        <div class="row gx-2">
+                            <div class="col-md-6">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="First Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Last Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-2">
+                                    <input type="email" class="form-control form-control-sm" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="d-grid">
+                                   <button
+                                       type="submit"
+                                       class="btn btn-warning btn-sm">
+                                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-check-fill" viewBox="0 0 16 16">
+                                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 4.697v4.974A4.5 4.5 0 0 0 12.5 8a4.5 4.5 0 0 0-1.965.45l-.338-.207z"/>
+                                        <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686"/>
+                                      </svg>   
+                                       Subscribe
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                </div>
+                <ul class="list-group small mb-3">
+                    <li class="list-group-item active">Archives</li>
+                    <li class="list-group-item list-group-item-action">
+                         <a href="#" class="text-decoration-none text-dark">2022</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        <a href="#" class="text-decoration-none text-dark">2023</a>
+                   </li>
+                   <li class="list-group-item list-group-item-action">
+                    <a href="#" class="text-decoration-none text-dark">2024</a>
+               </li>
+               <li class="list-group-item list-group-item-action">
+                <a href="#" class="text-decoration-none text-dark">2025</a>
+           </li>
+                </ul>
+                <ul class="list-group small mb-3">
+                    <li class="list-group-item active">Categories</li>
+                    <li class="list-group-item list-group-item-action">
+                         <a href="#" class="text-decoration-none text-dark">Name</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        <a href="#" class="text-decoration-none text-dark">Geography and climate</a>
+                   </li>
+                   <li class="list-group-item list-group-item-action">
+                    <a href="#" class="text-decoration-none text-dark">History</a>
+               </li>
+               <li class="list-group-item list-group-item-action">
+                <a href="#" class="text-decoration-none text-dark">Economy</a>
+           </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Post Loop-->
+
+<!--Blog Footer-->
+<footer class="main-footer text-bg-dark p-4 text-center">
+    <p class="m-0"><small>Copyright &copy; 2025. All Rights Reserved</small></p>
+</footer>
+<!--Blog Footer-->
+
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

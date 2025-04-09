@@ -1,0 +1,19 @@
+.brand-gradient{
+        
+    background: #2667cf; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2667cf, #14c8a4); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2667cf, #14c8a4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  
+  
+      }
+      .banner-holder, .main-page-header{
+        background-image: url(ece5eacd1ca6efab190063ab33b96321.png);
+        background-size: cover;
+        background-position: bottom;
+      }
+      .custom-nav{
+        backdrop-filter: blur(8px);
+      }
